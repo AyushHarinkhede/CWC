@@ -18,3 +18,9 @@ int main() {
 
     return 0;
 }
+
+// This is a sample C++ program demonstrating basic input/output and addition of two numbers.
+// It uses the C++17 language standard version.
+// To compile and run this code, use a C++17 compatible compiler.
+// Example compilation command: g++ -std=c++17 CWC_Sample.cpp -o CWC_Sample
+// Example run command: ./CWC_Sample
