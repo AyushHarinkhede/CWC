@@ -29,3 +29,9 @@ int main() {
 double difference = num1 - num2;
 cout << "The difference of " << num1 << " and " << num2 << " is " << difference << endl;
 
+
+// multiplication of two numbers
+double product = num1 * num2;
+cout << "The product of " << num1 << " and " << num2 << " is " << product << endl;
+
+  
