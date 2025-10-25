@@ -47,20 +47,6 @@ if (num2 != 0) {
 
 
 
-/**
- * @file multiplication_table.cpp
- * @brief Prints a multiplication table for a user-provided number.
- *
- * This program asks the user to enter an integer and then displays
- * its multiplication table from 1 to 10.
- */
-
-#include <iostream>
-#include <iomanip> // For std::setw (sets width for formatting)
-
-int main() {
-    int number;
-
     // Prompt the user for input
     std::cout << "Enter a number to see its multiplication table: ";
     
@@ -80,5 +66,16 @@ int main() {
         std::cout << number << " x " << std::setw(2) << i << " = " << (number * i) << std::endl;
     }
 
-    return 0; // Exit successfully
+
+
+
+    std::cout << "Enter a number: ";
+
+    if (!(std::cin >> number)) {
+        std::cout << "Invalid input. Please enter an integer." << std::endl;
+        return 1;
+    }
+
+    
+    return 0;
 }
