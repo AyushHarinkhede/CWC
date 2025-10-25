@@ -40,5 +40,6 @@ if (num2 != 0) {
 } else {
     cout << "Division by zero is not allowed." << endl;
 }
+
 return 0;
 }
