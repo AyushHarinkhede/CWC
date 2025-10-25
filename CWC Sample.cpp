@@ -42,12 +42,7 @@ if (num2 != 0) {
 }
 
 
-
-
-
-
-
-    // Prompt the user for input
+ // Prompt the user for input
     std::cout << "Enter a number to see its multiplication table: ";
     
     // Check if the input is a valid integer
@@ -68,8 +63,7 @@ if (num2 != 0) {
 
 
 
-
-    std::cout << "Enter a number: ";
+  std::cout << "Enter a number: ";
 
     if (!(std::cin >> number)) {
         std::cout << "Invalid input. Please enter an integer." << std::endl;
