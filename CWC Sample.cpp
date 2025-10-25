@@ -76,6 +76,9 @@ if (num2 != 0) {
         return 1;
     }
 
+std::cout << "\nMultiplication Table for " << number << ":" << std::endl;
+    std::cout << "-------------------------" << std::endl;
+
     
     return 0;
 }
