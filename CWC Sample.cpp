@@ -41,5 +41,44 @@ if (num2 != 0) {
     cout << "Division by zero is not allowed." << endl;
 }
 
-return 0;
+
+
+
+
+
+
+/**
+ * @file multiplication_table.cpp
+ * @brief Prints a multiplication table for a user-provided number.
+ *
+ * This program asks the user to enter an integer and then displays
+ * its multiplication table from 1 to 10.
+ */
+
+#include <iostream>
+#include <iomanip> // For std::setw (sets width for formatting)
+
+int main() {
+    int number;
+
+    // Prompt the user for input
+    std::cout << "Enter a number to see its multiplication table: ";
+    
+    // Check if the input is a valid integer
+    if (!(std::cin >> number)) {
+        std::cout << "Invalid input. Please enter an integer." << std::endl;
+        return 1; // Exit with an error code
+    }
+
+    std::cout << "\nMultiplication Table for " << number << ":" << std::endl;
+    std::cout << "-------------------------" << std::endl;
+
+    // Loop from 1 to 10
+    for (int i = 1; i <= 10; ++i) {
+        // Print the multiplication equation
+        // std::setw(2) ensures the multiplier (i) is aligned nicely
+        std::cout << number << " x " << std::setw(2) << i << " = " << (number * i) << std::endl;
+    }
+
+    return 0; // Exit successfully
 }
