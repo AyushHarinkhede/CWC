@@ -47,7 +47,7 @@ if (num2 != 0) {
     
     // Check if the input is a valid integer
     if (!(std::cin >> number)) {
-        std::cout << "Invalid input. Please enter an integer." << std::endl;
+     std::cout << "Invalid input. Please enter an integer." << std::endl;
         return 1; // Exit with an error code
     }
 
@@ -58,7 +58,7 @@ if (num2 != 0) {
     for (int i = 1; i <= 10; ++i) {
         // Print the multiplication equation
         // std::setw(2) ensures the multiplier (i) is aligned nicely
-        std::cout << number << " x " << std::setw(2) << i << " = " << (number * i) << std::endl;
+    std::cout << number << " x " << std::setw(2) << i << " = " << (number * i) << std::endl;
     }
 
 
@@ -66,7 +66,7 @@ if (num2 != 0) {
   std::cout << "Enter a number: ";
 
     if (!(std::cin >> number)) {
-        std::cout << "Invalid input. Please enter an integer." << std::endl;
+     std::cout << "Invalid input. Please enter an integer." << std::endl;
         return 1;
     }
 
@@ -75,7 +75,7 @@ std::cout << "\nMultiplication Table for " << number << ":" << std::endl;
 
 
     for (int i = 1; i <= 10; ++i) {
-        std::cout << number << " x " << std::setw(2) << i << " = " << (number * i) << std::endl;
+     std::cout << number << " x " << std::setw(2) << i << " = " << (number * i) << std::endl;
     }
 
 
