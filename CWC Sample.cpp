@@ -8,7 +8,7 @@ int main() {
     // Input from the user 
     cout << "Enter the first number: ";  
     cin >> num1;
-    cout << "Enter the second number: ";
+    cout << "Enter the second number: "; 
     cin >> num2;
 
     // Adding the two numbers
