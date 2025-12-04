@@ -5,8 +5,8 @@ int main() {
     // Declare variables
     double num1, num2, sum; //Addition of Two Num.
 
-    // Input from the user
-    cout << "Enter the first number: "; 
+    // Input from the user 
+    cout << "Enter the first number: ";  
     cin >> num1;
     cout << "Enter the second number: ";
     cin >> num2;
