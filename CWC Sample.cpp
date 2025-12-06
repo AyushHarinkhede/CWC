@@ -24,9 +24,9 @@ int main() {
 // Example compilation command: g++ -std=c++17 CWC_Sample.cpp -o CWC_Sample
 // Example run command: ./CWC_Sample
 
-// substraction of two numbers
-double difference = num1 - num2;
-cout << "The difference of " << num1 << " and " << num2 << " is " << difference << endl;
+// substraction of two numbers 
+double difference = num1 - num2; 
+cout << "The difference of " << num1 << " and " << num2 << " is " << difference << endl; 
 
 
 // multiplication of two numbers
