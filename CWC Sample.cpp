@@ -9,7 +9,7 @@ int main() {
     cout << "Enter the first number: ";  
     cin >> num1;
     cout << "Enter the second number: "; 
-    cin >> num2;
+    cin >> num2; 
 
     // Adding the two numbers
     sum = num1 + num2;
