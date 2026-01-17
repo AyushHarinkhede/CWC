@@ -10,7 +10,7 @@ int main() {
     cin >> num1;
     cout << "Enter the second number: "; 
     cin >> num2; 
-
+ 
     // Adding the two numbers
     sum = num1 + num2;
 
