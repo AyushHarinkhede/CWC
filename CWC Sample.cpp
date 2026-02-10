@@ -12,7 +12,7 @@ int main() {
     cin >> num2; 
  
     // Adding the two numbers 
-    sum = num1 + num2;
+    sum = num1 + num2; 
 
     cout << "The sum of " << num1 << " and " << num2 << " is " << sum << endl;
 
