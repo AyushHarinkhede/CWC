@@ -1,5 +1,5 @@
 <h1 align="center">Hi there 👋, I'm Ayush Harinkhede</h1>
-<h3 align="center">🚀 Fullstack Developer | Open Source Enthusiast 🇮🇳</h3>
+<h3 align="center">🚀 Fullstack Developer | Open Source Enthusiast 🇮🇳</h3> 
 
 <div align="center">
   <a href="https://github.com/AyushHarinkhede">
@@ -98,4 +98,5 @@
 <div align="center">
     <img src="https://capsule-render.vercel.app/api?type=waving&color=00ff00&height=100&section=footer"/>
 </div>
+
 
