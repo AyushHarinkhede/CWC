@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;    
 
-int main() {
+int main() { 
     // Declare variables
     double num1, num2, sum; //Addition of Two Num.
 
