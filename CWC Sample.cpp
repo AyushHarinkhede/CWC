@@ -14,7 +14,7 @@ int main() {
     // Adding the two numbers 
     sum = num1 + num2;   
 
-    cout << "The sum of " << num1 << " and " << num2 << " is " << sum << endl;
+    cout << "The sum of " << num1 << " and " << num2 << " is " << sum << endl; 
 
 // This is a sample C++ program demonstrating basic input/output and addition of two numbers.
 
