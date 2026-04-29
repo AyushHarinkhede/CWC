@@ -78,7 +78,6 @@ std::cout << "\nMultiplication Table for " << number << ":" << std::endl;
      std::cout << number << " x " << std::setw(2) << i << " = " << (number * i) << std::endl;
     }
 
-
     
     return 0;
 }
